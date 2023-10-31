@@ -1,0 +1,63 @@
+.name-list {
+    margin: 50px;
+  }
+
+
+  .custom-container {
+    margin-top: 20px;
+    margin-bottom: 10px;
+    background-color: #f0f0f0;
+    
+  }
+
+  .larger-navbar {
+    height: 250px; /* Adjust the height to make the navbar larger */
+    padding: 10px 0px;
+    background-color: green; /* Add padding to the top and bottom if needed */
+    /* Add other styling as needed */
+  }
+
+  .margin-top {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    
+  }
+
+  .margin-bottom {
+    margin-bottom: 50px;
+  }
+
+  .float-left {
+    float: left;
+  }
+
+  .logo {
+    width: 100px;
+    height: auto;
+  }
+
+  .alternating-list-item:nth-child(even) {
+    background-color: green;
+    color: gold;
+  }
+  
+  .alternating-list-item:nth-child(odd) {
+    background-color: red;
+    color: white;
+  }
+
+  body {
+    background-color: red;
+  }
+
+  footer {
+    background-color: green; /* Set a background color if desired */
+    color: #fff; /* Set text color if desired */
+    padding: 20px 0; /* Add padding to the top and bottom of the footer */
+    text-align: center; /* Center the content within the footer */
+  }
+  
+  .footer-content {
+    width: 100%;
+    max-width: 100%; /* Stretch to the full width of the screen */
+  }
