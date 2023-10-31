@@ -69,7 +69,7 @@ const Main = () => {
   return (
     <Container className="custom-container">
       <Row>
-        <Col sm="3" className="margin-top">
+        <Col sm="3" className="margin-top margin-left">
           <Input
             type="text"
             value={nameToAdd}
