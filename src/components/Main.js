@@ -77,7 +77,7 @@ const Main = () => {
             placeholder="enter name to add"
           />
         </Col>
-        <Col sm="2" className="margin-top">
+        <Col sm="2" className="margin-top float-left-mobile">
           <Button color="warning" size="lg" onClick={handleAddName}>
             Add Name
           </Button>

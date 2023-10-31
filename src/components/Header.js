@@ -7,11 +7,15 @@ const Header = () => {
     <Navbar dark expand="md" className="larger-navbar">
       <NavbarBrand className="ms-5" href="/">
         <Row>
-          <Col sm="3" className="d-flex flex-column">
+          <Col sm="12" md="3" className="d-flex flex-column">
             <h1 className="mb-3 mt-auto">Secret Santa</h1>
             <p>Created by Nephi Banegas</p>
           </Col>
-          <Col sm="9" className="d-flex align-items-center justify-content-end">
+          <Col
+            sm="12"
+            md="9"
+            className="d-flex align-items-center justify-content-center justify-content-md-end text-center"
+          >
             <img
               src="/secret-santa-clear-removebg-preview.png"
               alt="Logo"

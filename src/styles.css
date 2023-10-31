@@ -11,7 +11,7 @@
   }
 
   .larger-navbar {
-    height: 250px; /* Adjust the height to make the navbar larger */
+    height: auto; /* Adjust the height to make the navbar larger */
     padding: 10px 0px;
     background-color: green; /* Add padding to the top and bottom if needed */
     /* Add other styling as needed */
@@ -60,4 +60,14 @@
   .footer-content {
     width: 100%;
     max-width: 100%; /* Stretch to the full width of the screen */
+  }
+
+  @media (max-width: 767px) {
+    .float-left-mobile {
+      float: left;
+    }
+  }
+  
+  .float-md-left {
+    float: none; /* Reset the float for medium and larger screens */
   }
