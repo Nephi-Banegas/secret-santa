@@ -1,5 +1,5 @@
 import { Button, Input, Col, Row, Container } from "reactstrap";
-import { useState, useEffect } from "react";
+import { useState } from "react";
 import NameList from "./NameList";
 import SantaList from "./SantaList";
 import "../styles.css";
@@ -31,7 +31,7 @@ const Main = () => {
   const assignSantas = () => {
     const nameHolder = nameList.slice();
     const shuffledNames = nameHolder.slice();
-    if (nameHolder.length % 2 == 0) {
+    if (nameHolder.length % 2 === 0) {
       for (let i = shuffledNames.length - 1; i > 0; i--) {
         const j = Math.floor(Math.random() * (i + 1));
         [shuffledNames[i], shuffledNames[j]] = [
@@ -53,7 +53,7 @@ const Main = () => {
       const participant = nameList[i];
       let santa = shuffledNames[i];
 
-      while (assignedSantas.has(santa) || santa == participant) {
+      while (assignedSantas.has(santa) || santa === participant) {
         santa = shuffledNames[Math.floor(Math.random() * shuffledNames.length)];
       }
 

@@ -1,13 +1,4 @@
-import {
-  Navbar,
-  NavbarBrand,
-  Collapse,
-  NavbarToggler,
-  Nav,
-  NavItem,
-  Row,
-  Col,
-} from "reactstrap";
+import { Navbar, NavbarBrand, Row, Col } from "reactstrap";
 
 import "../styles.css";
 
