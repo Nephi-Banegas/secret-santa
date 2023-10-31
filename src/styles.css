@@ -62,7 +62,7 @@
     max-width: 100%; /* Stretch to the full width of the screen */
   }
 
-  @media (max-width: 767px) {
+  @media (max-width: 1000px) {
     .float-left-mobile {
       float: left;
     }
