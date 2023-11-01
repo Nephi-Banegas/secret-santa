@@ -69,12 +69,13 @@ const Main = () => {
   return (
     <Container className="custom-container">
       <Row>
-        <Col sm="3" className="margin-top margin-left">
+        <Col sm="3" className="margin-top ">
           <Input
             type="text"
             value={nameToAdd}
             onChange={handleInputChange}
             placeholder="enter name to add"
+            className="float-left-mobile"
           />
         </Col>
         <Col sm="2" className="margin-top ">
@@ -108,19 +109,14 @@ const Main = () => {
           </Button>
         </Col>
       </Row>
+
       <Row>
         <Col sm="6">
           <h1>Participants:</h1>
-        </Col>
-        <Col sm="6">
-          <h1>Assignments:</h1>
-        </Col>
-      </Row>
-      <Row>
-        <Col sm="6">
           <NameList nameList={nameList} />
         </Col>
         <Col sm="6">
+          <h1>Assignments:</h1>
           <SantaList assignedList={assignedList} />
         </Col>
       </Row>

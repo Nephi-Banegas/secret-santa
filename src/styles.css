@@ -14,7 +14,7 @@
     height: auto; /* Adjust the height to make the navbar larger */
     padding: 10px 0px;
     background-color: green; /* Add padding to the top and bottom if needed */
-    /* Add other styling as needed */
+   
   }
 
   .margin-top {
@@ -66,7 +66,7 @@
     max-width: 100%; /* Stretch to the full width of the screen */
   }
 
-  @media (max-width: 1000px) {
+  @media (max-width: 767px) {
     .float-left-mobile {
       float: left;
     }
